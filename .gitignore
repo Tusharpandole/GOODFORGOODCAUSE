@@ -1,0 +1,35 @@
+# Python virtual environment
+venv/
+backend/venv/
+*.pyc
+__pycache__/
+
+# Redis database
+dump.rdb
+
+# SQL dumps
+*.sql
+
+# Environment variables
+.env
+backend/.env
+
+# Logs
+*.log
+backend/debug.log
+
+# Frontend build artifacts
+frontend/node_modules/
+frontend/build/
+frontend/.cache/
+
+# Local test files
+test.csv
+backend/test.csv
+
+# Vercel configuration
+vercel.json
+
+# Backend static files
+backend/static/
+backend/staticfiles/
